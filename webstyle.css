@@ -1,0 +1,192 @@
+body {
+    background-color: #FAEDCD;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+}
+
+.header_content {
+    position: fixed;
+    height: 70px;
+    padding-left: 50px;
+    background-color: #FAEDCD;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header_nav {
+    padding-left: 0;
+    font-family: monospace;
+    justify-content: space-between;
+    letter-spacing: 4px;
+}
+
+nav a {
+
+    display: inline-block;
+    color: #463F3A;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #463F3A;
+    font-weight: bold;
+}
+
+footer {
+    font-family: monospace;
+    color: #463F3A;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    float: left;
+    width: 73%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+.intern {
+    color: #463F3A;
+    outline: none;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: monospace;
+    border-color: white;
+    border-style: none;
+}
+
+.job {
+    color: #463F3A;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.area1 {
+    display: flex;
+}
+
+.intern-photo {
+    float: left;
+    width: 55%;
+}
+
+
+.intern_text {
+    color: #463F3A;
+    font-size: 18px;
+    font-family: monospace;
+    float: left;
+    width: 40%;
+}
+
+.club {
+    background-color: white;
+    color: #463F3A;
+    outline: none;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: monospace;
+    border-color: white;
+    border-style: none;
+}
+
+.club-name {
+    color: #463F3A;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.area {
+    display: flex;
+}
+
+.cover {
+    overflow: hidden;
+}
+
+
+.club-img {
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+}
+
+.cover_text {
+    float: right;
+    width: 75%;
+}
+
+.competition {
+    color: #463F3A;
+    outline: none;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: monospace;
+    border-color: white;
+    border-style: none;
+}
+
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    display: inline-block;
+}
+
+.myname {
+    margin-top: 30px;
+    text-align: center;
+    color: #463F3A;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.t4 {
+    display: flex;
+}
+
+.t4>.intro {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.intro>p {
+    text-align: left;
+    color: #463F3A;
+    font-size: 18px;
+    list-style: none;
+    font-family: monospace;
+    padding-left: 10px;
+    display: block;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 60px 10px;
+    border-radius: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
