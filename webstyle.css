@@ -153,12 +153,20 @@ aside {
     display: inline-block;
 }
 
-.myname {
+.myname1 {
     margin-top: 30px;
     text-align: center;
     color: #463F3A;
     font-family: monospace;
     font-size: 25px;
+}
+
+.myname2 {
+    margin-top: 17px;
+    text-align: center;
+    color: #463F3A;
+    font-family: monospace;
+    font-size: 17px;
 }
 
 .t4 {
